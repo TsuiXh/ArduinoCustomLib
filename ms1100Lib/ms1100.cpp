@@ -7,6 +7,8 @@
 */
 double ms1100::getFormaldehydeConcentration(int sensorPin)
 {
+	//wait before inquery
+	delay(5);
 	//读取模拟输入量
 	int val = analogRead(sensorPin);
 	//转换成电压
@@ -22,6 +24,8 @@ double ms1100::getFormaldehydeConcentration(int sensorPin)
 */
 double ms1100::getTolueneConcentration(int sensorPin)
 {
+	//wait before inquery
+	delay(5);
 	//读取模拟输入量
 	int val = analogRead(sensorPin);
 	//转换成电压
