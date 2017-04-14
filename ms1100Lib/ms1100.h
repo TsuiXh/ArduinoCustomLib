@@ -1,6 +1,6 @@
 #pragma once
-#ifndef ms1100
-#define ms1100
+#ifndef ms1100_h
+#define ms1100_h
 
 
 #if defined(ARDUINO) && (ARDUINO >= 100)
