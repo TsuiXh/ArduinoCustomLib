@@ -1,5 +1,4 @@
 #include "ms1100.h"
-#include "cmath"
 
 
 /*
